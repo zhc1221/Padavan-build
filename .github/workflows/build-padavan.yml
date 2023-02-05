@@ -44,7 +44,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: WR1200JS
+        TNAME: XY-C1
         KERNEL: 4.4
       run: |
         cd /opt/rt-n56u/trunk
