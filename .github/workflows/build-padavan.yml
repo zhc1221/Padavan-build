@@ -90,7 +90,6 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #集成v2ray执行文件
         echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=n" >> .config #ddnsto  ~0.5M
         echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config 
-        echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNSBIN=y" >> .config 
         echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=y" >> .config #aliddns
         echo "CONFIG_FIRMWARE_INCLUDE_SQM=y" >> .config 
         echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_SERVER=y" >> .config 
